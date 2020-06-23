@@ -3,7 +3,12 @@ module.exports = {
   parserOptions: {
     sourceType: 'module',
   },
+
   rules: {
     strict: 0,
   },
+  env: {
+    jest: true,
+  },
+  plugins: ['jest'],
 };
